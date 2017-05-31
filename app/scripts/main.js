@@ -9,7 +9,7 @@ var xScale = d3.scaleLinear()
     .domain([0, symbolTypes.length])
     .range([70, 400]);
 
-var colors = ["red", "green", "blue", "yellow"];
+var colors = ["#F4236B", "#09C181", "#23C9F4", "yellow"];
 
 d3.select('g')
     .selectAll('path')
